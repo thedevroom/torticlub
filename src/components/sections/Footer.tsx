@@ -104,9 +104,29 @@ export function Footer() {
               © {new Date().getFullYear()} TortiClub
             </p>
           </div>
-          <p className="text-center sm:text-left text-[0.7rem] font-semibold tracking-wide text-ink/45">
-            Hecho por Cristian Querol / thedevroom
-          </p>
+          <div className="grid grid-cols-2 gap-2">
+            <div className="rounded-2xl border border-ink/[0.07] bg-[#FBF8F1] px-3.5 py-3">
+              <p className="text-[0.58rem] uppercase tracking-[0.18em] font-semibold text-ink/30 mb-1">
+                Hecho por
+              </p>
+              <p className="text-xs font-bold tracking-tight text-ink">
+                Cristian Querol
+              </p>
+            </div>
+            <a
+              href="https://github.com/thedevroom"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-2xl border border-ink/[0.07] bg-[#FBF8F1] px-3.5 py-3 hover:bg-primary/25 transition-colors"
+            >
+              <p className="text-[0.58rem] uppercase tracking-[0.18em] font-semibold text-ink/30 mb-1">
+                GitHub
+              </p>
+              <p className="text-xs font-bold tracking-tight text-ink">
+                thedevroom ↗
+              </p>
+            </a>
+          </div>
         </div>
       </div>
     </footer>

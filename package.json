@@ -2,8 +2,45 @@
   "name": "torticlub",
   "version": "1.0.0",
   "private": true,
-  "description": "TortiClub — tortillas para compartir en Barcelona",
-  "author": "Cristian Querol <thedevroom>",
+  "description": "TortiClub — product-first food brand. Tortillas para compartir en Barcelona. Parte. Comparte. Repite.",
+  "author": {
+    "name": "Cristian Querol",
+    "url": "https://github.com/thedevroom"
+  },
+  "contributors": [
+    {
+      "name": "thedevroom",
+      "url": "https://github.com/thedevroom"
+    }
+  ],
+  "license": "UNLICENSED",
+  "homepage": "https://torticlubworld.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedevroom/torticlub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thedevroom/torticlub/issues"
+  },
+  "keywords": [
+    "torticlub",
+    "barcelona",
+    "tortilla",
+    "food-brand",
+    "d2c",
+    "nextjs",
+    "typescript",
+    "tailwindcss",
+    "react",
+    "vercel",
+    "ecommerce",
+    "food-delivery",
+    "branding",
+    "spanish-food",
+    "thedevroom",
+    "product-design",
+    "share-food"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",

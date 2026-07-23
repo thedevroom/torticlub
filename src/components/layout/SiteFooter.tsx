@@ -133,7 +133,7 @@ export function SiteFooter() {
           </div>
         </div>
 
-        <div className="mt-14 pt-8 border-t border-ink/8 flex flex-col gap-4">
+        <div className="mt-14 pt-8 border-t border-ink/8 flex flex-col gap-5">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
             <p className="text-xs text-ink/35 font-medium lowercase tracking-wide">
               parte. comparte. repite.
@@ -143,24 +143,33 @@ export function SiteFooter() {
             </p>
           </div>
 
-          {/* Credit strip */}
-          <div className="rounded-2xl border border-ink/[0.07] bg-[#FBF8F1] px-4 py-3.5 md:px-5 md:py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-            <p className="text-[0.7rem] md:text-xs font-semibold tracking-wide text-ink/55 text-center sm:text-left">
-              Hecho por{" "}
-              <span className="text-ink">Cristian Querol</span>
-              <span className="text-ink/30 mx-1.5">/</span>
-              <a
-                href="https://github.com/thedevroom"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-ink hover:underline underline-offset-2"
-              >
+          {/* Credits grid — compact, brand-aligned */}
+          <div className="grid grid-cols-2 gap-2 sm:gap-3">
+            <div className="rounded-2xl border border-ink/[0.07] bg-[#FBF8F1] px-3.5 py-3 sm:px-4 sm:py-3.5">
+              <p className="text-[0.58rem] uppercase tracking-[0.18em] font-semibold text-ink/30 mb-1">
+                Hecho por
+              </p>
+              <p className="text-xs sm:text-[0.8125rem] font-bold tracking-tight text-ink leading-snug">
+                Cristian Querol
+              </p>
+            </div>
+            <a
+              href="https://github.com/thedevroom"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group rounded-2xl border border-ink/[0.07] bg-[#FBF8F1] px-3.5 py-3 sm:px-4 sm:py-3.5 transition-colors hover:border-ink/15 hover:bg-primary/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-2 focus-visible:ring-offset-surface"
+            >
+              <p className="text-[0.58rem] uppercase tracking-[0.18em] font-semibold text-ink/30 mb-1">
+                GitHub
+              </p>
+              <p className="text-xs sm:text-[0.8125rem] font-bold tracking-tight text-ink leading-snug inline-flex items-center gap-1.5">
+                <span className="size-1.5 rounded-full bg-primary shrink-0" aria-hidden />
                 thedevroom
-              </a>
-            </p>
-            <p className="text-[0.65rem] uppercase tracking-[0.16em] font-semibold text-ink/25">
-              © {new Date().getFullYear()} All rights reserved
-            </p>
+                <span className="text-ink/30 font-semibold group-hover:text-ink/50 transition-colors">
+                  ↗
+                </span>
+              </p>
+            </a>
           </div>
         </div>
       </div>

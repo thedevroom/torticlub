@@ -1,25 +1,22 @@
 # Changelog
 
-All notable releases of **TortiClub**.
+## [1.1.0] — 2026-07-23
+
+### Fixed
+- Ritual frame sequence: exact **1 → 2 → 4** geometric pieces from the whole plate
+- Removed white plate-ring artefact that looked like a “+” / extra wedges
+- Canvas contain-fit so separated quarters never clip on any viewport
+
+### Added
+- Monorepo layout: `branding/`, `docs/`, `web/`
+- Transparent PNG brand icon (`branding/logo/icon.png`)
+- Proprietary `LICENSE` + `PROTECTION.md` (all rights reserved)
+- Star-ready advanced README with legal banner and asset showcase
+
+### Changed
+- Product SOLO / DUO / CLUB plates regenerated from clean pipeline
+- Footer credits as compact brand grid → GitHub thedevroom
 
 ## [1.0.0] — 2026-07-23
 
-### Added
-
-- Public storefront with brand system (cream / yellow / ink)
-- Formats **SOLO · DUO · CLUB** and four flavour catalog
-- Order flow with hold-to-confirm + stock checks
-- Reservations flow for next-day capacity
-- Admin panel (orders, stock, messages, campaigns)
-- SEO for Barcelona (metadata, sitemap, JSON-LD)
-- Motion product storytelling and frame sequence
-- Packaging-led exclusivity section and mobile sticky CTA
-
-### Security
-
-- Env-only admin credentials and JWT sessions
-- No private phone numbers in the public client
-
-### Credits
-
-- **Cristian Querol / [thedevroom](https://github.com/thedevroom)**
+- Initial public storefront, admin, SEO Barcelona, brand system

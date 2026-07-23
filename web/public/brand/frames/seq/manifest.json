@@ -1,0 +1,21 @@
+{
+  "count": 60,
+  "fps": 60,
+  "size": 900,
+  "path": "/brand/frames/seq/frame-###.png",
+  "phases": {
+    "solo": [
+      0,
+      0.34
+    ],
+    "duo": [
+      0.34,
+      0.64
+    ],
+    "club": [
+      0.64,
+      1
+    ]
+  },
+  "note": "Geometric splits from whole plate only — exact 1 / 2 / 4 pieces"
+}

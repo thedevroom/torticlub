@@ -1,12 +1,47 @@
+TORTICLUB — PROPRIETARY SOFTWARE & BRAND ASSETS
 Copyright (c) TortiClub / Cristian Querol (thedevroom)
-
 All rights reserved.
 
-This software, its source code, brand assets, copy, and product imagery
-are the proprietary property of the copyright holders.
+================================================================================
+NOTICE: THIS ENTIRE PROJECT IS STRICTLY PROTECTED.
+================================================================================
 
-Unauthorized copying, modification, distribution, or commercial use of
-this project, in whole or in part, is strictly prohibited without prior
-written permission.
+This repository, including without limitation:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+  • all source code (web application, scripts, configuration)
+  • brand identity (logo, eyes symbol, wordmark, color system, typography)
+  • product photography and generated frame sequences
+  • packaging mockups, print files, stickers, cards
+  • copywriting, slogans and the mantra “Parte. Comparte. Repite.”
+  • business documentation and technical materials
+  • any derivative works based on the above
+
+are the exclusive proprietary property of the copyright holders.
+
+FORBIDDEN without prior written permission from the copyright holders:
+
+  1. Copying, redistributing or sublicensing any part of this repository
+  2. Commercial use of the TortiClub brand, name, logo or product design
+  3. Rebranding, white-labeling or reselling this codebase as a template
+  4. Training machine-learning models on TortiClub brand or product assets
+  5. Public deployment that impersonates TortiClub or confuses consumers
+  6. Removal or alteration of copyright, credit or protection notices
+
+PERMITTED:
+
+  • Viewing this public repository for personal / educational study
+  • Forking strictly for private learning (no public redistribution of
+    brand assets, no commercial use)
+  • Linking to https://github.com/thedevroom/torticlub and the live site
+  • Opening issues or pull requests that do not include stolen assets
+
+THE SOFTWARE AND ASSETS ARE PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+Credits must be preserved where code is referenced for study:
+
+  Hecho por Cristian Querol / thedevroom
+  https://github.com/thedevroom
+
+For licensing inquiries: contact the author via GitHub @thedevroom.

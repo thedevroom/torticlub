@@ -1,0 +1,29 @@
+{
+  "name": "TortiClub",
+  "short_name": "TortiClub",
+  "description": "Tortillas para compartir en Barcelona. Parte. Comparte. Repite.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F3E8",
+  "theme_color": "#F7F3E8",
+  "icons": [
+    {
+      "src": "/brand/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

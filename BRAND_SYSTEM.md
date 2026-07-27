@@ -73,18 +73,18 @@ El producto es la tortilla; la promesa es **formar parte del Club**.
 |-----|--------|
 | Nombre de marca | TortiClub / torticlub (lockup siempre en minúsculas) |
 | Instagram (bio) | `@torticlub` |
-| Instagram (story pedido) | `@torticlub_` *(variante con guion bajo — unificar a `@torticlub`)* |
+| Instagram (story pedido) | `@torticlub`
 | Dominio brand book / tarjeta | `torticlub.com` |
 | Dominio stories | `torticlubworld.com` *(inconsistencia a resolver)* |
-| WhatsApp | `636 81 60 81` |
-| Ubicación | Sant Andreu, Barcelona |
+| WhatsApp | `600 600 600` |
+| Ubicación | Barcelona |
 | Logística | Recogida en Sant Andreu + envíos a toda Barcelona |
 
 **Decisión de sistema (recomendada):**  
 - Handle canónico: `@torticlub`  
 - Dominio canónico web: definir uno (`torticlub.com` o `torticlubworld.com`) y usarlo en todos los touchpoints.
 
-## 2.2 Bio Instagram (fuente `info-ig.txt`)
+## 2.2 Bio Instagram 
 
 ```
 Parte.
